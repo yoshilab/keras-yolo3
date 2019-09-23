@@ -16,4 +16,6 @@ RUN apt install -y sshfs
 
 RUN pip install matplotlib
 
+RUN pip install pillow
+
 WORKDIR /work
