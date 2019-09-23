@@ -1,0 +1,6 @@
+{
+    "images_dir_path": "./datasets/coco/images/trainval35k",
+    "annotation_file_path": "./datasets/coco/annotations/instances_trainval35k.json",
+    "classes_path": "./datasets/classes.txt",
+    "output_dir_path": "./datasets/preprocessed"
+}
