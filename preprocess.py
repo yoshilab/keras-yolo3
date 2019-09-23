@@ -26,7 +26,7 @@ def preprocess(config_path):
         bbox_strs = list()
         for annotation in annotations:
             bbox_str = list(map(str, annotation['bbox']))
-            cls_str = str(annotation['category_id'])
+            cls_str = str(annotation['category_id']-1)
             bbox_str.append(cls_str)
             if len(bbox_str) > 0:
                 bbox_strs.append(",".join(bbox_str))
